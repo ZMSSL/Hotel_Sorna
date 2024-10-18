@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+img{
+	display: flex; /* Usar flexbox para centralização */
+    
+    align-items: center; /* Centraliza verticalmente, se necessário */
+     width: 100%; /* Ajuste a largura do carrossel */
+    max-width: 800px; /* Largura máxima do carrossel */
+   
+  
+	
+	
+}
+
+input[type=submit], input[type=reset]{
+	
+	background-color:#1c2833;
+	color:white;
+	padding:5px;
+	border:none;
+}
+
+body{
+	background-color: #cacfd2;
+	text-align:center;
+}
+
+a:link, a:visited{
+	background-color:#745a0a;
+	color:white;
+	text-decoration:none;
+
+	
+}
+
+--estilo para a tabela guardar
+#guardar{
+	
+    
+	border-collapse:collapse;
+	
+	
+}
+
+#guardar td {
+	background-color:#ddd;
+	border:1px solid #273746 ;
+	padding: 5px;
+	text-align:center;
+}input[type="submit"],
+input[type="reset"] {
+    background-color: #745a0a; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #5a4608; /* Cor ao passar o mouse */
+}
+
+a {
+    background-color: #745a0a; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+a:hover {
+    background-color: #5a4608; /* Cor ao passar o mouse */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.carrossel {
+    display: flex; /* Usar flexbox para centralização */
+
+    align-items: center; /* Centraliza verticalmente, se necessário */
+   
+}
+
+.carrossel-container {
+    width: 30%; /* Ajuste a largura do carrossel */
+    width: 600px; /* Largura máxima do carrossel */
+}
+
+
+#reservash td{
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+.elegant-font {
+  font-family: 'Playfair Display', 'Montserrat', serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
